@@ -10,17 +10,17 @@ body {
     color: #333;
 }
 
+.logo {
+    width: 200px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
     background-color: #000000;
     color: #fff;
-}
-
-.logo {
-    height: 10px;
-    width: 10px;
+    align-items: center;
 }
 
 .nav-list {
@@ -120,11 +120,12 @@ header {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     text-align: center;
     padding: 20px;
     background-color: #000000;
     color: #fff;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
 }
